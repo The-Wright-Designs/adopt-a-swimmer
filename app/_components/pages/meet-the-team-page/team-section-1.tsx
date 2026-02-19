@@ -102,6 +102,7 @@ const TeamSection1 = () => {
               </div>
             </li>
             <hr className="hidden desktopSmall:block text-white/25" />
+
             <li className="desktopSmall:grid grid-cols-[340px_1fr] max-w-[500px] gap-10 desktopSmall:max-w-full">
               <ImageComponent
                 file="clayton.jpg"
@@ -131,6 +132,44 @@ const TeamSection1 = () => {
                   the opportunity to discover a different lifestyle through
                   surfing. Today, his non-for-profit organisation, Adopt a
                   Surfer, is a close collaborator of Adopt a Swimmer.
+                </p>
+              </div>
+            </li>
+            <li className="desktopSmall:grid grid-cols-[340px_1fr] max-w-[500px] gap-10 desktopSmall:max-w-full">
+              <ImageComponent
+                file="IMG_20180620_152802~2.jpg"
+                phoneWidth={425}
+                tabletWidth={500}
+                desktopWidth={500}
+                cssClasses="h-auto object-cover aspect-square w-full mb-10 desktopSmall:mb-0"
+              />
+              <div>
+                <h4 className="text-paragraph font-roboto font-bold grid gap-1 text-white mb-4">
+                  Peter Heydenrych Rae
+                  <span className="text-paragraph italic font-thin text-white">
+                    Coach
+                  </span>
+                </h4>
+                <p className="text-white mb-4">
+                  Peter spent most of her career in journalism and corporate
+                  communications. Her work has taken her across Africa, the
+                  Middle East and Europe, and she spent 10 years living and
+                  working in the Middle East for large IT corporations.
+                </p>
+                <p className="text-white mb-4">
+                  After raising her children and spending long years in
+                  international roles, she returned to her first love – the
+                  water. A returning visitor to Plettenberg Bay for her whole
+                  life, Peter settled in Plett permanently in 2017 and decided
+                  build a new career based on her passion for swimming. She is a
+                  qualified LTS teacher registered with Swimming South Africa.
+                </p>
+                <p className="text-white">
+                  Her teaching style is based on knowing that a child’s route to
+                  swimming excellence is unique, and by travelling that route,
+                  the child’s skill and enthusiasm can be harnessed most
+                  effectively. “Every child can swim, it’s the journey we take
+                  together that gives me the most satisfaction.”
                 </p>
               </div>
             </li>

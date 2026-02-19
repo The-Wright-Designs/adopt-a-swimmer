@@ -114,10 +114,10 @@ const AboutSection2 = () => {
               </ul>
             </div>
             <ImageComponent
-              file="Frame-57.jpg"
+              file="WhatsApp_Image_2026_(1).jpeg"
               phoneWidth={10}
               tabletWidth={10}
-              desktopWidth={280}
+              desktopWidth={350}
               cssClasses="hidden desktopSmall:block h-full w-full object-cover"
             />
           </div>
