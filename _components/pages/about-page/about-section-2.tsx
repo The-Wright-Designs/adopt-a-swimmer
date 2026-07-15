@@ -125,7 +125,7 @@ const AboutSection2 = () => {
       </section>
       <div className="max-w-[1100px] h-[730px] relative -mx-5 tablet:-mx-10 desktopSmall:rounded-2xl overflow-hidden desktopSmall:mx-auto desktopSmall:my-15">
         <ImageComponent
-          file="DSC01744.JPG"
+          file="_XT42795.jpg"
           phoneWidth={1000}
           tabletWidth={1000}
           desktopWidth={1100}

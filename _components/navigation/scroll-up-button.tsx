@@ -2,7 +2,7 @@
 
 import classNames from "classnames";
 
-import useScrollPosition from "@/app/_utils/scroll-position";
+import useScrollPosition from "@/_utils/scroll-position";
 
 const ScrollUpButton = () => {
   const scrollPosition = useScrollPosition();

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import data from "@/app/_data/navigation.json";
+import data from "@/_data/navigation.json";
 import MenuToggle from "./mobile/menu-toggle";
 import classNames from "classnames";
 

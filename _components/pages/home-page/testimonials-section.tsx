@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
-import data from "@/app/_data/general-data.json";
+import data from "@/_data/general-data.json";
 
 interface Props {
   cssClasses?: string;

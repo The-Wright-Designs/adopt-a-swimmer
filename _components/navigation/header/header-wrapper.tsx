@@ -1,6 +1,6 @@
 "use client";
 
-import useScrollPosition from "@/app/_utils/scroll-position";
+import useScrollPosition from "@/_utils/scroll-position";
 import { useEffect, useState } from "react";
 import Header from "./header";
 

@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import { Roboto, Barrio, Caveat } from "next/font/google";
 
-import HeaderWrapper from "./_components/navigation/header/header-wrapper";
-import Footer from "./_components/navigation/footer/footer";
-import ScrollUpButton from "./_components/navigation/scroll-up-button";
+import HeaderWrapper from "@/_components/navigation/header/header-wrapper";
+import Footer from "@/_components/navigation/footer/footer";
+import ScrollUpButton from "@/_components/navigation/scroll-up-button";
 
 import "./globals.css";
 

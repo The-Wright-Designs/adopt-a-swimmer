@@ -31,11 +31,11 @@ const TeamSection1 = () => {
           <ul className="gap-10 grid min-[540px]:grid-cols-2 desktopSmall:grid-cols-1">
             <li className="desktopSmall:grid grid-cols-[340px_1fr] max-w-[500px] gap-10 desktopSmall:max-w-full">
               <ImageComponent
-                file="louise-adopt-a-swimmer.jpg"
+                file="_XH22617.jpg"
                 phoneWidth={425}
                 tabletWidth={500}
                 desktopWidth={500}
-                cssClasses="h-auto object-cover aspect-square w-full mb-10 desktopSmall:mb-0 min-[540px]:-scale-x-100"
+                cssClasses="h-auto object-cover aspect-square w-full mb-10 desktopSmall:mb-0"
               />
               <div>
                 <h4 className="text-paragraph font-roboto font-bold grid gap-1 text-white mb-4">

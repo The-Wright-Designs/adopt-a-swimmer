@@ -3,11 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import ContactForm from "../_components/contact-form";
-import { showEmailAddress, showPhoneNumber } from "@/app/_actions/actions";
-import ImageComponent from "../_components/image-component";
+import ContactForm from "@/_components/contact-form";
+import { showEmailAddress, showPhoneNumber } from "@/_actions/actions";
+import ImageComponent from "@/_components/image-component";
 
-import data from "@/app/_data/general-data.json";
+import data from "@/_data/general-data.json";
 
 const Contact = () => {
   const {
@@ -87,18 +87,13 @@ const Contact = () => {
             </li>
           </ul>
           <div className="hidden desktopSmall:block">
-            <div className="relative w-full h-full">
-              <ImageComponent
-                file="DSC01738.JPG"
-                phoneWidth={10}
-                tabletWidth={10}
-                desktopWidth={800}
-                cssClasses="h-full w-full object-cover"
-              />
-              <div className="absolute top-0 right-0 bg-white/75 py-1 px-2 text-[12px]">
-                Kayleigh Packwood Images
-              </div>
-            </div>
+            <ImageComponent
+              file="_XT42703.jpg"
+              phoneWidth={10}
+              tabletWidth={10}
+              desktopWidth={800}
+              cssClasses="h-full w-full object-cover"
+            />
           </div>
         </div>
         <hr className="text-black/25 my-10 desktopSmall:hidden" />

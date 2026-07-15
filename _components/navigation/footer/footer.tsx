@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import data from "@/app/_data/navigation.json";
+import data from "@/_data/navigation.json";
 import ImageComponent from "../../image-component";
 
 const Footer = () => {

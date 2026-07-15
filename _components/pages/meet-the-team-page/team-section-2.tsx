@@ -121,6 +121,9 @@ const TeamSection2 = () => {
               </h4>
               <div className="grid gap-5">
                 <h5 className="text-paragraph font-regular font-roboto mb-1 tracking-wider">
+                  Kayleigh Packwood Images
+                </h5>
+                <h5 className="text-paragraph font-regular font-roboto mb-1 tracking-wider">
                   Julia Evan{" "}
                   <span className="font-thin">
                     (

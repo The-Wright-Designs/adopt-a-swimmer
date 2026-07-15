@@ -1,15 +1,15 @@
-import CardSection from "@/app/_components/pages/home-page/card-section";
-import HeroSection from "./_components/pages/home-page/hero-section";
-import MakeASplashSection from "./_components/pages/home-page/make-a-splash-section";
-import QuoteSection from "./_components/pages/home-page/quote-section";
-import ImageSlider from "./_components/pages/home-page/image-slider";
+import CardSection from "@/_components/pages/home-page/card-section";
+import HeroSection from "@/_components/pages/home-page/hero-section";
+import MakeASplashSection from "@/_components/pages/home-page/make-a-splash-section";
+import QuoteSection from "@/_components/pages/home-page/quote-section";
+import ImageSlider from "@/_components/pages/home-page/image-slider";
 
-import data from "@/app/_data/general-data.json";
+import data from "@/_data/general-data.json";
 import Image from "next/image";
-import TestimonialsSection from "./_components/pages/home-page/testimonials-section";
-import ContactSection from "./_components/pages/home-page/contact-section";
-import YoutubeVideo from "./_components/pages/home-page/youtube-video";
-import ImageComponent from "./_components/image-component";
+import TestimonialsSection from "@/_components/pages/home-page/testimonials-section";
+import ContactSection from "@/_components/pages/home-page/contact-section";
+import YoutubeVideo from "@/_components/pages/home-page/youtube-video";
+import ImageComponent from "@/_components/image-component";
 
 export default function Home() {
   const {
@@ -21,7 +21,7 @@ export default function Home() {
       <HeroSection cssClasses="h-[595px] w-full object-cover max-w-[1440px] desktopSmall:h-[647px] desktopSmall:mx-auto" />
       <div className="grid place-items-center py-15 px-5 bg-beige max-w-[1440px] desktopSmall:mx-auto">
         <ImageComponent
-          file="plett-ocean-festival-2025.png"
+          file="plett-ocean-festival-2026.jpeg"
           phoneWidth={400}
           tabletWidth={800}
           desktopWidth={600}

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import data from "@/app/_data/navigation.json";
+import data from "@/_data/navigation.json";
 import classNames from "classnames";
 
 const MenuToggle = () => {

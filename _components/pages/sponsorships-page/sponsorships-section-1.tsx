@@ -53,18 +53,13 @@ const SponsorshipsSection1 = () => {
               desktopWidth={530}
               cssClasses="w-full h-full object-cover aspect-video desktopSmall:aspect-auto"
             />
-            <div className="relative">
-              <ImageComponent
-                file="DSC01751.JPG"
-                phoneWidth={425}
-                tabletWidth={800}
-                desktopWidth={530}
-                cssClasses=" w-full h-full object-cover"
-              />
-              <div className="absolute top-0 right-0 bg-white/75 py-1 px-2 text-[12px]">
-                Kayleigh Packwood Images
-              </div>
-            </div>
+            <ImageComponent
+              file="_XT42829.jpg"
+              phoneWidth={425}
+              tabletWidth={800}
+              desktopWidth={530}
+              cssClasses=" w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

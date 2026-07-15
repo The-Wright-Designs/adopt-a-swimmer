@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import Button from "./button";
-import Recaptcha from "@/app/_lib/Recaptcha";
-import { sendEmail } from "@/app/_actions/actions";
+import Recaptcha from "@/_lib/Recaptcha";
+import { sendEmail } from "@/_actions/actions";
 
 interface Props {
   blueBackground?: boolean;
