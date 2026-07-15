@@ -1,7 +1,50 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-*: initial;
+  --color-orange: #F68428;
+  --color-lightBlue: #00b5cb;
+  --color-blue: #0082C8;
+  --color-darkBlue: #005696;
+  --color-white: #fff;
+  --color-black: #1b1b1b;
+  --color-beige: #E1B88A;
+  --color-brown: #9C5A36;
+  --color-link: #0000FF;
+  --color-none: transparent;
+
+  --font-roboto: "Roboto", sans-serif;
+  --font-barrio: "Barrio", system-ui;
+  --font-caveat: "Caveat", cursive;
+
+  --font-weight-thin: 200;
+  --font-weight-regular: 500;
+  --font-weight-semiBold: 700;
+  --font-weight-bold: 900;
+
+  --text-paragraph: 1rem;
+  --text-paragraph--line-height: 142%;
+  --text-paragraph--letter-spacing: 0.02rem;
+  --text-subheading: 2rem;
+  --text-subheading--line-height: 110%;
+  --text-subheading--letter-spacing: 0.0525rem;
+  --text-heading: 3rem;
+  --text-heading--line-height: 100%;
+  --text-heading--letter-spacing: 0.09rem;
+  --text-quote: 1.5rem;
+  --text-quote--line-height: 130%;
+  --text-quote--letter-spacing: 0.045rem;
+
+  --breakpoint-phone: 425px;
+  --breakpoint-tablet: 800px;
+  --breakpoint-desktopSmall: 1100px;
+  --breakpoint-desktop: 1440px;
+
+  --drop-shadow-default: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
 
 @layer components {
   * {
