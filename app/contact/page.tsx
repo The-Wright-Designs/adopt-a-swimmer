@@ -79,7 +79,7 @@ const Contact = () => {
               ) : (
                 <Link
                   href={`tel:${phone}`}
-                  className="text-link font-light p-2 font-thin -m-2 desktopSmall:p-0 desktopSmall:m-0"
+                  className="text-link p-2 font-thin -m-2 desktopSmall:p-0 desktopSmall:m-0"
                 >
                   {showPhone}
                 </Link>
@@ -88,7 +88,7 @@ const Contact = () => {
           </ul>
           <div className="hidden desktopSmall:block">
             <ImageComponent
-              file="_XT42703.jpg"
+              file="SM_20261030_DZ9_2900.jpg"
               phoneWidth={10}
               tabletWidth={10}
               desktopWidth={800}

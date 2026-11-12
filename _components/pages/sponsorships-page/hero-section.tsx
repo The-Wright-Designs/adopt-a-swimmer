@@ -15,7 +15,7 @@ const HeroSection = () => {
       </div>
       <div className="hidden desktopSmall:block">
         <ImageComponent
-          file="DSC_0584.jpg"
+          file="SM_20261030_DZ9_28229.jpg"
           phoneWidth={10}
           tabletWidth={10}
           desktopWidth={320}

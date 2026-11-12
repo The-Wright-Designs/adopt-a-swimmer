@@ -54,7 +54,7 @@ const SponsorshipsSection1 = () => {
               cssClasses="w-full h-full object-cover aspect-video desktopSmall:aspect-auto"
             />
             <ImageComponent
-              file="_XT42829.jpg"
+              file="SM_20261030_DZ9_2754.jpg"
               phoneWidth={425}
               tabletWidth={800}
               desktopWidth={530}
